@@ -1,5 +1,7 @@
+import Editor from './components/Editor'
+
 const App = () => {
-  return <div>hello</div>
+  return <Editor />
 }
 
 export default App
