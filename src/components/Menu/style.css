@@ -1,0 +1,32 @@
+div {
+  h1 {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+  }
+
+  h3 {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+  }
+
+  ul {
+    padding: 20px;
+    list-style: disc;
+  }
+
+  ol {
+    padding: 20px;
+    list-style: decimal;
+  }
+
+  a {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+}

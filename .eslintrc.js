@@ -17,9 +17,11 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    semi: ['error', 'never'],
+    quotes: ['error', 'single'],
+    'no-unused-vars': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
-    quotes: ['error', 'single'],
-    semi: ['error', 'never']
+    '@typescript-eslint/no-unused-vars': ['warn']
   }
 }
