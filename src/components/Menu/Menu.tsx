@@ -13,7 +13,7 @@ const Menu = ({ children }: MenuProps) => {
   if (!editor) return null
 
   return (
-    <div className='flex flex-wrap align-middle w-full border-b border-zinc-400'>
+    <div className='flex flex-wrap align-middle w-full border-b border-zinc-400 bg-neutral-200'>
       {children}
     </div>
   )

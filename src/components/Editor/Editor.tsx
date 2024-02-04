@@ -55,7 +55,7 @@ const Editor = Object.assign(
     ]
 
     return (
-      <div className='w-6/12 border border-zinc-400'>
+      <div className='w-6/12 border border-zinc-400 rounded-md'>
         <EditorProvider
           extensions={extensions}
           slotBefore={<Menu>{children}</Menu>}
